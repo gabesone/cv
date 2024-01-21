@@ -52,8 +52,16 @@ hr {
     background-color: #EEF5FF;
 }
 
-p {
+p, li {
     font-size: 1.2rem;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
 }
 
 a {
@@ -73,6 +81,12 @@ svg {
 
 svg:hover {
     height: 60px;
+}
+
+.box-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 @media (max-width: 576px) {
